@@ -1,0 +1,16 @@
+
+ RUN  v5.1.0 /home/user/tareas-web/backend
+
+ ✓ tests/src/utils/generateCode.test.ts > generate six digit code > should generate a numeric code with 6 digits 1ms
+ ✓ tests/src/utils/generateCode.test.ts > generate six digit code > should generate a non-null code 0ms
+ ✓ tests/src/utils/generateCode.test.ts > generate six digit code > should generate different codes 1ms
+ ✓ tests/src/utils/generateCode.test.ts > generate six digit code > should generate codes between 100000 and 999999 0ms
+ ✓ tests/src/utils/password.test.ts > password utils > should generate non-empty hashes different from the original passwords 8ms
+ ✓ tests/src/utils/password.test.ts > password utils > should return true when comparing the correct password 430ms
+ ✓ tests/src/utils/password.test.ts > password utils > should return false when comparing an incorrect password 437ms
+
+ Test Files  2 passed (2)
+      Tests  7 passed (7)
+   Start at  14:41:16
+   Duration  1.44s (tests 96%, import 2%, transform 1%)
+
